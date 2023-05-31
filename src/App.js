@@ -13,7 +13,7 @@ function App() {
       method: 'POST',
       headers: {
         'Access-Control-Allow-Headers': '*',
-        'Access-Control-Allow-Origin': 'http://localhost:3000',
+        'Access-Control-Allow-Origin': 'http://130.89.82.63:3000',
         //'Access-Control-Allow-Origin': 'http://16.16.107.23:80:3000'
       },
       body: formData
