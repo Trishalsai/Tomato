@@ -8,7 +8,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
 
-    const response = await fetch('http://16.16.107.23:80/classify', {
+    const response = await fetch('http://16.171.69.119/classify', {
       crossDomain: true,
       method: 'POST',
       headers: {
